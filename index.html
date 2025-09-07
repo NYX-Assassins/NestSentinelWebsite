@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sea Turtle Nest Monitoring</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Fjalla+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <a class="navbar-brand text-white" href="#">Nyx Project</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="#index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#data">Data</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#footer">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Carousel -->
+<div id="turtleCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#turtleCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#turtleCarousel" data-slide-to="1"></li>
+    <li data-target="#turtleCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://s-i.huffpost.com/gen/2532906/images/o-GREEN-SEA-TURTLE-facebook.jpg" class="d-block w-100" alt="Sea Turtle 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="display-4">Protecting Sea Turtles</h1>
+        <p class="lead">Shields turtle eggs against predators like crabs and birds.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://media1.s-nbcnews.com/j/newscms/2017_38/2163041/170921-sea-turtle-eggs-bangladesh-njs-1119a_31cf8ef3430369f801e1edd52bb32ff2.nbcnews-ux-2880-1000.jpg" class="d-block w-100" alt="Sea Turtle 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="display-4">Non-invasive monitoring</h1>
+        <p class="lead">Monitors turtle eggs without direct human intervention.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://c.pxhere.com/photos/fe/dd/sea_turtles_hatchlings_baby_beach_sand_water_coast_seacoast-592171.jpg!d" class="d-block w-100" alt="Sea Turtle 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="display-4">Saving the nests</h1>
+        <p class="lead">Prevent death-threatening fungal infection on turtle eggs</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#turtleCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#turtleCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- FOr mums -->
+<div class="mum" id="data">
+<div class="container my-5 poppins-regular">
+  <h2 class="text-center mb-4 clr">Turtle Monitoring Data(Mum)</h2>
+  <table class="table table-striped">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Check-in Time</th>
+        <th scope="col">Location(Longtitude and Latitude)</th>
+        <th scope="col">Camera ID</th>
+        <th scope="col">Check-out Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2025-07-20 08:30 AM</td>
+        <td>5.0382, 4.0303</td>
+        <td>1</td>
+        <td>2025-07-20 10:00 AM</td>
+      </tr>
+      <tr>
+        <td>2025-07-21 09:00 AM</td>
+        <td>7.8338, 10.4434</td>
+        <td>2</td>
+        <td>2025-07-21 11:30 AM</td>
+      </tr>
+      <tr>
+        <td>2025-07-22 07:45 AM</td>
+        <td>5.6678, 1.3343</td>
+        <td>3</td>
+        <td>2025-07-22 09:15 AM</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- Nest 1 -->
+<div class="container my-5 poppins-regular">
+  <h2 class="text-center mb-4">Nest 1 Data</h2>
+  <table class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Time</th>
+        <th scope="col">Temperature(°C)</th>
+        <th scope="col">Humidity(Relative)</th>
+        <th scope="col">Vibration</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2025-09-20 10:00 AM</td>
+        <td>31.2</td>
+        <td>30%</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>2025-09-20 11:00 AM</td>
+        <td>29.5</td>
+        <td>31%</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>2025-09-20 12:00 PM</td>
+        <td>30.9</td>
+        <td>35%</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- footer -->
+<footer class="footer bg-info text-white mt-5" id="footer">
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-md-6">
+        <h5>About Our Project</h5>
+        <p>Dedicated to protecting sea turtles in their early stages through smart monitoring, data collection and shielding against predators.</p>
+      </div>
+      <div class="col-md-6">
+        <h5>Contact Us</h5>
+        <p>Email: nyxassassins@gmail.com</p>
+        <p>Phone: +60 12-345 6789</p>
+        <p>Address: 7D, 1, Jalan Gottlieb, 10350 George Town, Penang</p>
+      </div>
+    </div>
+  </div>
+  <div class="text-center py-2 bg-dark">
+    <small>&copy; 2025 Nyx Assassins. All rights reserved.</small>
+  </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
