@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e0f7fa;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #00bcd4 !important; /* Cyan / Bootstrap Info */
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+.carousel-item img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+  color: white;
+  bottom: 30px;
+}
+
+h2 {
+  color: #00796b;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.mum {
+    background-color:#038091;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.clr {
+    color:white;
+}
+
+.footer {
+  background-color: #00bcd4;
+}
+
+.footer h5 {
+  color: #ffffff;
+}
+
+.footer p {
+  color: #e0f7fa;
+  margin-bottom: 0.5rem;
+}
+
+.footer .bg-dark {
+  background-color: #00555c !important;
+}
+
+.footer small {
+  color: #ffffff;
+}
