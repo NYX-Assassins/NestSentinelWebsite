@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-  background-color: #00bcd4 !important; /* Cyan / Bootstrap Info */
+  background-color: #00bcd4 !important;
 }
 
 .navbar .nav-link,
@@ -72,3 +72,58 @@ h2 {
 .footer small {
   color: #ffffff;
 }
+
+/* New styles for real-time data */
+.sensor-status {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.status-online {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.status-offline {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f1aeb5;
+}
+
+.live-value {
+  font-weight: bold;
+  color: #00796b;
+}
+
+.vibration-alert {
+  background-color: #fff3cd !important;
+  color: #856404 !important;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+.last-update {
+  font-size: 0.9em;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.connection-indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.connected { background-color: #28a745; }
+.disconnected { background-color: #dc3545; }
